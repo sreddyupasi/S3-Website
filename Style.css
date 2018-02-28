@@ -1,0 +1,27 @@
+body{
+    background:#00AEEF;
+ }
+ .main{
+    margin-top:10px;
+}
+#header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(md-logo-animation.gif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(md-logo-animation.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+h1{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1.3%;
+    color:rgb(4, 182, 253);
+    font-family: 'Lobster';
+    font-size: 260%;
+    font-weight: 400;
+    text-transform: unset;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
